@@ -17,9 +17,9 @@
 
 3_digit = int(input())
 
-sum_of_last_first = (3_digit // 100) + (3_digit % 10)
+sum_of_last_first = 3_digit // 100 + 3_digit % 10
 
-middle_value = (3_digit // 10) % 10
+middle_value = 3_digit // 10 % 10
 
 if sum_of_last_first == middle_value:
   comparison = '='

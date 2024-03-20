@@ -18,7 +18,7 @@
 # else:
 #     print("No")
 
-right_angle = False
+
 
 x1, y1 = int(input()) , int(input())
 x2, y2 = int(input()) , int(input())
@@ -30,5 +30,8 @@ c2 = (x3 - x2)**2 + (x3 - x2)**2
 
 if a2 != 0 or b2 != 0 or c2 != 0:
   if (a2 + b2 == c2) or (b2 + c2 == a2) or (c2 + a2 == b2):
-    right_angle = True
-
+    print("Yes")
+  else:
+    print("No")
+else:
+  print("No")
